@@ -1,0 +1,6 @@
+framework module P4DFlightPlanner {
+  umbrella header "P4DFlightPlanner.h"
+
+  export *
+  module * { export * }
+}

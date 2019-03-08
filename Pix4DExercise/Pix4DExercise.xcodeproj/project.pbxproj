@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D4CA59B208C7EB4003D48AE /* PathAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4CA59A208C7EB4003D48AE /* PathAnnotation.swift */; };
+		6D4CA59F208DF24B003D48AE /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4CA59E208DF24B003D48AE /* PhotosViewController.swift */; };
+		6D4CA5A1208DF292003D48AE /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4CA5A0208DF292003D48AE /* CollectionViewCell.swift */; };
+		CD3588BC1F9BB330005FD8D4 /* FlightPlanning.mm in Sources */ = {isa = PBXBuildFile; fileRef = CD3588BB1F9BB330005FD8D4 /* FlightPlanning.mm */; };
+		CDDE91D71F9C793F006A0528 /* P4DFlightPlanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDDE91D61F9C7845006A0528 /* P4DFlightPlanner.framework */; };
+		CDDE91D81F9C793F006A0528 /* P4DFlightPlanner.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CDDE91D61F9C7845006A0528 /* P4DFlightPlanner.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CDDE91E11F9CC0D9006A0528 /* photo_marker@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDDE91E01F9CC0D9006A0528 /* photo_marker@3x.png */; };
+		CDEAB3821F9A2FBA00C3199A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEAB3811F9A2FBA00C3199A /* AppDelegate.swift */; };
+		CDEAB3841F9A2FBA00C3199A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEAB3831F9A2FBA00C3199A /* ViewController.swift */; };
+		CDEAB3871F9A2FBA00C3199A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDEAB3851F9A2FBA00C3199A /* Main.storyboard */; };
+		CDEAB3891F9A2FBA00C3199A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDEAB3881F9A2FBA00C3199A /* Assets.xcassets */; };
+		CDEAB38C1F9A2FBA00C3199A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDEAB38A1F9A2FBA00C3199A /* LaunchScreen.storyboard */; };
+		CDEAB3C31F9A812900C3199A /* P4DDroneInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDEAB3C21F9A80F700C3199A /* P4DDroneInterface.framework */; };
+		CDEAB3C41F9A812900C3199A /* P4DDroneInterface.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CDEAB3C21F9A80F700C3199A /* P4DDroneInterface.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CDEAB3C51F9A812D00C3199A /* P4DDroneInterfaceSimulator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDEAB3C11F9A80EA00C3199A /* P4DDroneInterfaceSimulator.framework */; };
+		CDEAB3C61F9A812D00C3199A /* P4DDroneInterfaceSimulator.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CDEAB3C11F9A80EA00C3199A /* P4DDroneInterfaceSimulator.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CDEAB3EA1F9B2AFE00C3199A /* DroneAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEAB3E91F9B2AFE00C3199A /* DroneAnnotation.swift */; };
+		CDEAB3ED1F9B318400C3199A /* drone@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEAB3EC1F9B318400C3199A /* drone@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CDEAB39D1F9A3A8700C3199A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CDEAB3C41F9A812900C3199A /* P4DDroneInterface.framework in Embed Frameworks */,
+				CDDE91D81F9C793F006A0528 /* P4DFlightPlanner.framework in Embed Frameworks */,
+				CDEAB3C61F9A812D00C3199A /* P4DDroneInterfaceSimulator.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6D4CA59A208C7EB4003D48AE /* PathAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathAnnotation.swift; sourceTree = "<group>"; };
+		6D4CA59E208DF24B003D48AE /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		6D4CA5A0208DF292003D48AE /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		CD3588BA1F9BB330005FD8D4 /* FlightPlanning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlightPlanning.h; sourceTree = "<group>"; };
+		CD3588BB1F9BB330005FD8D4 /* FlightPlanning.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = FlightPlanning.mm; sourceTree = "<group>"; };
+		CDDE91D61F9C7845006A0528 /* P4DFlightPlanner.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = P4DFlightPlanner.framework; sourceTree = "<group>"; };
+		CDDE91E01F9CC0D9006A0528 /* photo_marker@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo_marker@3x.png"; sourceTree = "<group>"; };
+		CDEAB37E1F9A2FBA00C3199A /* Pix4DExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pix4DExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDEAB3811F9A2FBA00C3199A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDEAB3831F9A2FBA00C3199A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDEAB3861F9A2FBA00C3199A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDEAB3881F9A2FBA00C3199A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDEAB38B1F9A2FBA00C3199A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDEAB38D1F9A2FBA00C3199A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDEAB3951F9A375100C3199A /* Pix4DExercise-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pix4DExercise-Bridging-Header.h"; sourceTree = "<group>"; };
+		CDEAB3C11F9A80EA00C3199A /* P4DDroneInterfaceSimulator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = P4DDroneInterfaceSimulator.framework; sourceTree = "<group>"; };
+		CDEAB3C21F9A80F700C3199A /* P4DDroneInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = P4DDroneInterface.framework; sourceTree = "<group>"; };
+		CDEAB3E91F9B2AFE00C3199A /* DroneAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroneAnnotation.swift; sourceTree = "<group>"; };
+		CDEAB3EC1F9B318400C3199A /* drone@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "drone@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDEAB37B1F9A2FBA00C3199A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDEAB3C31F9A812900C3199A /* P4DDroneInterface.framework in Frameworks */,
+				CDDE91D71F9C793F006A0528 /* P4DFlightPlanner.framework in Frameworks */,
+				CDEAB3C51F9A812D00C3199A /* P4DDroneInterfaceSimulator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDEAB3751F9A2FBA00C3199A = {
+			isa = PBXGroup;
+			children = (
+				CDDE91D61F9C7845006A0528 /* P4DFlightPlanner.framework */,
+				CDEAB3C21F9A80F700C3199A /* P4DDroneInterface.framework */,
+				CDEAB3C11F9A80EA00C3199A /* P4DDroneInterfaceSimulator.framework */,
+				CDEAB3801F9A2FBA00C3199A /* Pix4DExercise */,
+				CDEAB37F1F9A2FBA00C3199A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDEAB37F1F9A2FBA00C3199A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDEAB37E1F9A2FBA00C3199A /* Pix4DExercise.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDEAB3801F9A2FBA00C3199A /* Pix4DExercise */ = {
+			isa = PBXGroup;
+			children = (
+				CDEAB3EB1F9B318400C3199A /* Resources */,
+				CDEAB4231F9BAEB500C3199A /* Planning */,
+				CDEAB3E81F9B2AE200C3199A /* Drawing */,
+				CDEAB3811F9A2FBA00C3199A /* AppDelegate.swift */,
+				CDEAB3831F9A2FBA00C3199A /* ViewController.swift */,
+				6D4CA59E208DF24B003D48AE /* PhotosViewController.swift */,
+				6D4CA5A0208DF292003D48AE /* CollectionViewCell.swift */,
+				CDEAB3851F9A2FBA00C3199A /* Main.storyboard */,
+				CDEAB3881F9A2FBA00C3199A /* Assets.xcassets */,
+				CDEAB38A1F9A2FBA00C3199A /* LaunchScreen.storyboard */,
+				CDEAB38D1F9A2FBA00C3199A /* Info.plist */,
+				CDEAB3951F9A375100C3199A /* Pix4DExercise-Bridging-Header.h */,
+			);
+			path = Pix4DExercise;
+			sourceTree = "<group>";
+		};
+		CDEAB3E81F9B2AE200C3199A /* Drawing */ = {
+			isa = PBXGroup;
+			children = (
+				CDEAB3E91F9B2AFE00C3199A /* DroneAnnotation.swift */,
+				6D4CA59A208C7EB4003D48AE /* PathAnnotation.swift */,
+			);
+			path = Drawing;
+			sourceTree = "<group>";
+		};
+		CDEAB3EB1F9B318400C3199A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CDDE91E01F9CC0D9006A0528 /* photo_marker@3x.png */,
+				CDEAB3EC1F9B318400C3199A /* drone@3x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CDEAB4231F9BAEB500C3199A /* Planning */ = {
+			isa = PBXGroup;
+			children = (
+				CD3588BA1F9BB330005FD8D4 /* FlightPlanning.h */,
+				CD3588BB1F9BB330005FD8D4 /* FlightPlanning.mm */,
+			);
+			path = Planning;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDEAB37D1F9A2FBA00C3199A /* Pix4DExercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDEAB3901F9A2FBA00C3199A /* Build configuration list for PBXNativeTarget "Pix4DExercise" */;
+			buildPhases = (
+				CDEAB37A1F9A2FBA00C3199A /* Sources */,
+				CDEAB37B1F9A2FBA00C3199A /* Frameworks */,
+				CDEAB37C1F9A2FBA00C3199A /* Resources */,
+				CDEAB39D1F9A3A8700C3199A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pix4DExercise;
+			productName = Pix4DExercise;
+			productReference = CDEAB37E1F9A2FBA00C3199A /* Pix4DExercise.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDEAB3761F9A2FBA00C3199A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = pix4d;
+				TargetAttributes = {
+					CDEAB37D1F9A2FBA00C3199A = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CDEAB3791F9A2FBA00C3199A /* Build configuration list for PBXProject "Pix4DExercise" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDEAB3751F9A2FBA00C3199A;
+			productRefGroup = CDEAB37F1F9A2FBA00C3199A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDEAB37D1F9A2FBA00C3199A /* Pix4DExercise */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDEAB37C1F9A2FBA00C3199A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDEAB38C1F9A2FBA00C3199A /* LaunchScreen.storyboard in Resources */,
+				CDEAB3891F9A2FBA00C3199A /* Assets.xcassets in Resources */,
+				CDEAB3ED1F9B318400C3199A /* drone@3x.png in Resources */,
+				CDDE91E11F9CC0D9006A0528 /* photo_marker@3x.png in Resources */,
+				CDEAB3871F9A2FBA00C3199A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDEAB37A1F9A2FBA00C3199A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3588BC1F9BB330005FD8D4 /* FlightPlanning.mm in Sources */,
+				CDEAB3841F9A2FBA00C3199A /* ViewController.swift in Sources */,
+				CDEAB3821F9A2FBA00C3199A /* AppDelegate.swift in Sources */,
+				6D4CA5A1208DF292003D48AE /* CollectionViewCell.swift in Sources */,
+				6D4CA59F208DF24B003D48AE /* PhotosViewController.swift in Sources */,
+				CDEAB3EA1F9B2AFE00C3199A /* DroneAnnotation.swift in Sources */,
+				6D4CA59B208C7EB4003D48AE /* PathAnnotation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CDEAB3851F9A2FBA00C3199A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDEAB3861F9A2FBA00C3199A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDEAB38A1F9A2FBA00C3199A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDEAB38B1F9A2FBA00C3199A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDEAB38E1F9A2FBA00C3199A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDEAB38F1F9A2FBA00C3199A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDEAB3911F9A2FBA00C3199A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8D2RLU56NL;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Pix4DExercise/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pix4d.Pix4DExercise.kar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pix4DExercise/Pix4DExercise-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = arm64;
+			};
+			name = Debug;
+		};
+		CDEAB3921F9A2FBA00C3199A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8D2RLU56NL;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Pix4DExercise/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pix4d.Pix4DExercise.kar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pix4DExercise/Pix4DExercise-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = arm64;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDEAB3791F9A2FBA00C3199A /* Build configuration list for PBXProject "Pix4DExercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDEAB38E1F9A2FBA00C3199A /* Debug */,
+				CDEAB38F1F9A2FBA00C3199A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDEAB3901F9A2FBA00C3199A /* Build configuration list for PBXNativeTarget "Pix4DExercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDEAB3911F9A2FBA00C3199A /* Debug */,
+				CDEAB3921F9A2FBA00C3199A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDEAB3761F9A2FBA00C3199A /* Project object */;
+}

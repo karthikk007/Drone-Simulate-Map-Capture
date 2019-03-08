@@ -1,0 +1,6 @@
+framework module P4DDroneInterface {
+  umbrella header "P4DDroneInterface.h"
+
+  export *
+  module * { export * }
+}
